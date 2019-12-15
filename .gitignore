@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+Package/imgui.ini
+Package/MandelbrotFractal.exe
+Package/output.txt
+Package/SimpleComputeShader.exe
