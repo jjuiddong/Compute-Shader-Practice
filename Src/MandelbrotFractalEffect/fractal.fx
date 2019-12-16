@@ -26,7 +26,7 @@ SamplerState ColorMapSampler : register(s0)
 
 
 [numthreads(8, 8, 1)]
-void main(uint3 DTid : SV_DispatchThreadID)
+void CS(uint3 DTid : SV_DispatchThreadID)
 {
 	float2 WindowLocal = ((float2)DTid.xy / g_MaxThreadIter.xy) * float2(1, -1) + float2(-0.5f, 0.5f);
 	float2 coord = WindowLocal.xy * g_Window.xy + g_Window.zw;
@@ -57,7 +57,7 @@ technique11 Compute
 	pass P0
 	{
 		SetVertexShader(NULL);
-		SetComputeShader(CompileShader(cs_5_0, main()));
+		SetComputeShader(CompileShader(cs_5_0, CS()));
 		SetGeometryShader(NULL);
 		SetHullShader(NULL);
 		SetDomainShader(NULL);
