@@ -352,3 +352,6 @@ Package/imgui.ini
 Package/MandelbrotFractal.exe
 Package/output.txt
 Package/SimpleComputeShader.exe
+Package/MandelbrotFractalEffect.exe
+Src/MandelbrotFractal/fractal.cod
+Src/MandelbrotFractalEffect/fractal.cod

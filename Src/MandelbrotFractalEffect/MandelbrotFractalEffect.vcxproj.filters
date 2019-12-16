@@ -4,6 +4,6 @@
     <ClCompile Include="mandelbrotfractaleffect.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="fractal.hlsl" />
+    <CustomBuild Include="fractal.fx" />
   </ItemGroup>
 </Project>

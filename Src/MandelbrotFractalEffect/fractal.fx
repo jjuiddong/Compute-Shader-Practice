@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------------------------
-// File: fractal.hlsl
+// File: fractal.fx
 //
 // This is a compute shader that draws a Mandelbrot fractal.
 //
