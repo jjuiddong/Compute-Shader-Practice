@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTK_Desktop_2017", ".
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MandelbrotFractal", "MandelbrotFractal\MandelbrotFractal.vcxproj", "{557138D6-E62E-47ED-B043-31549C14A263}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MandelbrotFractalEffect", "MandelbrotFractalEffect\MandelbrotFractalEffect.vcxproj", "{04831D14-53FF-44AA-8CDA-60E28C248902}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug_MD|x64 = Debug_MD|x64
@@ -149,6 +151,26 @@ Global
 		{557138D6-E62E-47ED-B043-31549C14A263}.Release|x64.Build.0 = Release|x64
 		{557138D6-E62E-47ED-B043-31549C14A263}.Release|x86.ActiveCfg = Release|Win32
 		{557138D6-E62E-47ED-B043-31549C14A263}.Release|x86.Build.0 = Release|Win32
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug_MD|x64.ActiveCfg = Debug|x64
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug_MD|x64.Build.0 = Debug|x64
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug_MD|x86.ActiveCfg = Debug|Win32
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug_MD|x86.Build.0 = Debug|Win32
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug_MT|x64.ActiveCfg = Debug|x64
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug_MT|x64.Build.0 = Debug|x64
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug_MT|x86.ActiveCfg = Debug|Win32
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug_MT|x86.Build.0 = Debug|Win32
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug|x64.ActiveCfg = Debug|x64
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug|x64.Build.0 = Debug|x64
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug|x86.ActiveCfg = Debug|Win32
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Debug|x86.Build.0 = Debug|Win32
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Release_MD|x64.ActiveCfg = Release|x64
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Release_MD|x64.Build.0 = Release|x64
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Release_MD|x86.ActiveCfg = Release|Win32
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Release_MD|x86.Build.0 = Release|Win32
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Release|x64.ActiveCfg = Release|x64
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Release|x64.Build.0 = Release|x64
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Release|x86.ActiveCfg = Release|Win32
+		{04831D14-53FF-44AA-8CDA-60E28C248902}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

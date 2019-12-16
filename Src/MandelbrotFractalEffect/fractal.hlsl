@@ -50,3 +50,17 @@ void main(uint3 DTid : SV_DispatchThreadID)
 
 	OutputTexture[DTid.xy] = SampledColor;
 }
+
+
+technique11 Compute
+{
+	pass P0
+	{
+		SetVertexShader(NULL);
+		SetComputeShader(CompileShader(cs_5_0, main()));
+		SetGeometryShader(NULL);
+		SetHullShader(NULL);
+		SetDomainShader(NULL);
+		SetPixelShader(NULL);
+	}
+}
