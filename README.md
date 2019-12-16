@@ -3,15 +3,15 @@ Compute Shader Practice with VS2017 C++, D3D11
 
 
 - Simple Compute Shader
-  - compute shader BasicCompute11.cso
+  - compute shader: BasicCompute11.hlsl -> BasicCompute11.cso
   - reference  
     - https://www.codeproject.com/Articles/42612/DirectX-Compute-Shaders
 - Mandelbrot Fractal Compute Shader
-  - compute shader fractal.cso
+  - compute shader: fractal.hlsl -> fractal.cso
   - reference    
     - https://docs.microsoft.com/ko-kr/samples/microsoft/xbox-atg-samples/simplecomputepc/
 - Mandelbrot Fractal Compute Shader using Effect Shader
-  - effect shader fractal.fxo
+  - effect shader: fractal.fx ->fractal.fxo
   - reference    
     - https://docs.microsoft.com/ko-kr/samples/microsoft/xbox-atg-samples/simplecomputepc/
 
