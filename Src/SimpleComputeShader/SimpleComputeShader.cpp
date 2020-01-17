@@ -29,10 +29,10 @@ public:
 
 public:
 	graphic::cComputeShader m_computeShader;
-	graphic::cShareBuffer m_buf1;
-	graphic::cShareBuffer m_buf2;
-	graphic::cShareBuffer m_resultBuf;
-	graphic::cShareBuffer m_copyBuf;
+	graphic::cResourceBuffer m_buf1;
+	graphic::cResourceBuffer m_buf2;
+	graphic::cResourceBuffer m_resultBuf;
+	graphic::cResourceBuffer m_copyBuf;
 };
 
 INIT_FRAMEWORK3(cViewer);
@@ -120,7 +120,7 @@ bool cViewer::OnInit()
 	renderer.GetDevContext()->CSSetShaderResources(0, 3, ppSRVNULL);
 	renderer.GetDevContext()->CSSetConstantBuffers(0, 0, NULL);
 
-	m_copyBuf.Copy(renderer, m_resultBuf);
+	m_copyBuf.CopyFrom(renderer, m_resultBuf);
 	if (BufType *p = (BufType*)m_copyBuf.Lock(renderer))
 	{
 		FILE *fp = fopen("output.txt", "w");
